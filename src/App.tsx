@@ -1,11 +1,12 @@
-import './App.css'
+import { Title } from './styles';
+
 
 function App() {
 
   return (
-    <>
-      Oi
-    </>
+    <div>
+      <Title>Hello, Styled Components!</Title>
+    </div>
   )
 }
 
