@@ -1,12 +1,11 @@
-import { Title } from './styles';
-
+import { Header } from "./components/Header"
 
 function App() {
 
   return (
-    <div>
-      <Title>Hello, Styled Components!</Title>
-    </div>
+    <main>
+      <Header />
+    </main>
   )
 }
 
